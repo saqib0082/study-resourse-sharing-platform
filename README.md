@@ -173,19 +173,19 @@ upload_date TIMESTAMP
 
 All API files are located in the `/api/` directory and return `JSON` responses.
 
-| Method | Endpoint | Auth | Description |
+| Method | Endpoint | Access | Description |
 |---|---|---|---|
-| `POST` | `api/loginAPI.php` | ❌ | Login with email & password |
-| `POST` | `api/registerAPI.php` | ❌ | Register new student account |
-| `POST` | `api/logoutAPI.php` | ✅ | Logout and destroy session |
-| `POST` | `api/uploadAPI.php` | ✅ Student | Upload a note file |
-| `GET` | `api/getNotesAPI.php` | ✅ | Get notes (with search/filter) |
-| `GET` | `api/downloadAPI.php?id=` | ✅ | Download a note by ID |
-| `GET` | `api/previewAPI.php?id=` | ✅ | Preview a note in browser |
-| `POST` | `api/deleteNoteAPI.php` | ✅ Admin | Delete a note |
-| `POST` | `api/createUserAPI.php` | ✅ Admin | Create a new user |
-| `POST` | `api/deleteUserAPI.php` | ✅ Admin | Delete a user |
-| `POST` | `api/updateRoleAPI.php` | ✅ Admin | Update user role |
+| `POST` | `api/loginAPI.php` | 🌐 Public | Login with email & password |
+| `POST` | `api/registerAPI.php` | 🌐 Public | Register new student account |
+| `POST` | `api/logoutAPI.php` | 🔒 Login Required | Logout and destroy session |
+| `POST` | `api/uploadAPI.php` | 🔒 Login Required | Upload a note file |
+| `GET` | `api/getNotesAPI.php` | 🔒 Login Required | Get notes (with search/filter) |
+| `GET` | `api/downloadAPI.php?id=` | 🔒 Login Required | Download a note by ID |
+| `GET` | `api/previewAPI.php?id=` | 🔒 Login Required | Preview a note in browser |
+| `POST` | `api/deleteNoteAPI.php` | 🛡️ Admin Only | Delete a note |
+| `POST` | `api/createUserAPI.php` | 🛡️ Admin Only | Create a new user |
+| `POST` | `api/deleteUserAPI.php` | 🛡️ Admin Only | Delete a user |
+| `POST` | `api/updateRoleAPI.php` | 🛡️ Admin Only | Update user role |
 
 ---
 
