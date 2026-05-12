@@ -309,5 +309,5 @@ The upload API enforces all three limits with clear error messages. Storage usag
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for academic collaboration — StudyVault © 2026</sub>
+  <sub>Built with ❤️ team collaboration - StudyVault © 2026</sub>
 </div>
