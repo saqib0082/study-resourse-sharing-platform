@@ -287,16 +287,16 @@ The upload API enforces all three limits with clear error messages. Storage usag
 ## 📸 Screenshots
 
 ### 🔐 Admin Login Portal
-![Admin Login](screenshots/admin-login.png)
+![Admin Login](admin-login.png)
 
 ### 🛡️ Admin Panel — Overview & Stats
-![Admin Panel](screenshots/admin-panel.png)
+![Admin Panel](admin-panel.png)
 
 ### 📚 Notes Library — Browse & Search
-![Notes Library](screenshots/notes-library.png)
+![Notes Library](notes-library.png)
 
 ### 📤 Upload Notes — Drag & Drop
-![Upload Notes](screenshots/upload-notes.png)
+![Upload Notes](upload-notes.png)
 
 ---
 
